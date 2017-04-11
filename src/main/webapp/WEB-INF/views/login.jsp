@@ -34,20 +34,20 @@
                                 <div class="w3-rest">
                                     <div class="w3-row">
                                         <div class="w3-half">
-                                            <form:label path="user"><i class="fa fa-user-circle-o"></i>&nbsp;Usuario:</form:label>
+                                            <form:label path="usuario"><i class="fa fa-user-circle-o"></i>&nbsp;Usuario:</form:label>
                                         </div>
                                         <div class="w3-half">
-                                            <form:input path="user" cssClass="w3-small"/>
+                                            <form:input path="usuario" cssClass="w3-small"/>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="w3-rest">
                                     <div class="w3-row">
                                         <div class="w3-half">
-                                            <form:label path="pwd"><i class="fa fa-key"></i>&nbsp;Contraseña:</form:label>
+                                            <form:label path="contrasena"><i class="fa fa-key"></i>&nbsp;Contraseña:</form:label>
                                         </div>
                                         <div class="w3-half">
-                                            <form:password path="pwd" cssClass="w3-small"/>
+                                            <form:password path="contrasena" cssClass="w3-small"/>
                                         </div>
                                     </div>
                                 </div>

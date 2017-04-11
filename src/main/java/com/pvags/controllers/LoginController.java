@@ -1,7 +1,6 @@
 package com.pvags.controllers;
-
-import com.pvags.pojos.User;
 import com.pvags.models.ValidatorUser;
+import com.pvags.pojos.Usuario;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -30,13 +29,13 @@ public class LoginController {
     public ModelAndView login(){
         ModelAndView mav = new ModelAndView();
         mav.setViewName("login");
-        mav.addObject("log", new User());
+        mav.addObject("log", new Usuario());
         return mav;
     }
     
     /*Valida el formulario al momento de enviarlo mediante la clase de spring validator*/
     @RequestMapping(method = RequestMethod.POST)
-    public String form(@ModelAttribute("log") User log, BindingResult result, SessionStatus status){
+    public String form(@ModelAttribute("log") Usuario log, BindingResult result, SessionStatus status){
         this.userValidate.validate(log, result);
         ModelAndView mav = new ModelAndView();
         if(!result.hasErrors()){
