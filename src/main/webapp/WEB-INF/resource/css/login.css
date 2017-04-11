@@ -1,0 +1,49 @@
+* {
+  margin:0;
+  padding:0;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+html,body { 
+    overflow:hidden; 
+}
+
+h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:2em;
+  font-weight:300;
+  margin-bottom:25px;
+  color:#7f8c8d;
+  text-shadow:1px 1px 0px white;
+}
+
+input {
+  width:100%;
+  padding:5px;
+  -webkit-border-radius:6px;
+     -moz-border-radius:6px;
+          border-radius:6px;
+  margin-bottom:12px;
+  color:#607d8b;
+  font-weight:600;
+  font-size:16px;
+}
+
+input:focus {
+  background:#fafafa;
+}
+
+#binput {
+  width:100px;
+  padding:5px;
+  -webkit-border-radius:6px;
+     -moz-border-radius:6px;
+          border-radius:6px;
+  margin-bottom:8px;
+  margin-top:12px;
+  color:#7f8c8d;
+  font-weight:600;
+  font-size:16px;
+}
+
+
