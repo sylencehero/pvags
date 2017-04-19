@@ -34,6 +34,7 @@ public class WebConfig extends WebMvcConfigurerAdapter{
     @Override
     public void addResourceHandlers(ResourceHandlerRegistry registry) {
         registry.addResourceHandler("/resources/**").addResourceLocations(env.getProperty("web.resources"));
+        registry.addResourceHandler("/pages/**").addResourceLocations(env.getProperty("web.page"));
     }
     
 }
